@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run new_streamlit.py
+web: gunicorn app:app
