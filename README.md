@@ -53,7 +53,7 @@ Accurary score of 86.9% on Training Data.
 
 1.Procfile
 
-![](/images/profile.PNG)
+![](/images/profile.png)
 
 [2. App](https://github.com/Jaspreetsm21/Bank_churn_ML/blob/main/app.py)
 
