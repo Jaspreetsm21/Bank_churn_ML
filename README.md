@@ -12,7 +12,7 @@
 
 **For Web Framework Requirements**: pip install -r requirements.txt
 
-**Data (Kaggle)**: https://www.kaggle.com/emregur/churndata
+**Data Resource (Kaggle)**: https://www.kaggle.com/emregur/churndata
 
 # Data Cleaning and EDA
 
@@ -38,5 +38,19 @@ Accurary score of 85.7% on Testing Data.
 Accurary score of 86.9% on Training Data. 
 
 
-# Production 
-In this step, I built a flask API endpoint that was hosted on a local web server by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a Kickstarter listing and returns a success rate.
+ # [Production](https://bankml.herokuapp.com/) 
+ In this step, I built a client facing API endpoint and model was hosted on Heroku.
+ 
+## Setup for Deployment of the model on Heroku:
+
+1.Procfile
+
+![](/images/profile.PNG)
+
+[2. App](https://github.com/Jaspreetsm21/Bank_churn_ML/blob/main/app.py)
+
+python script for deploying the model using flask.
+
+3.requirements
+
+![](images/requirements.png)
