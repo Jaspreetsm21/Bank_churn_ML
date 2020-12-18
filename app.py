@@ -23,8 +23,8 @@ def predict():
         CreditScore = int(request.form['CreditScore'])
         Age = int(request.form['Age'])
         Tenure = int(request.form['Tenure'])
-        Balance = int(request.form['Balance'])
-        EstimatedSalary = int(request.form['EstimatedSalary'])
+        Balance = float(request.form['Balance'])
+        EstimatedSalary = float(request.form['EstimatedSalary'])
         
         country2=request.form['country']
         if(country2=='Geography_France'):
