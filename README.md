@@ -29,8 +29,14 @@ Decision Tree and Kneighborsclassifier
 
 Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
+![](/images//model1.PNG)
+
+![](/images//model2.PNG)
+
+![](/images//model3.PNG)
 
 # Model Performance
+
 The Random Forest model far outperformed the other approaches on the test and validation sets.
 
 Random Forest :
@@ -43,11 +49,7 @@ Accurary score of 86.9% on Training Data.
  
 ## Setup for Deployment of the model on Heroku:
 
-![](/images//model1.PNG)
-
-![](/images//model2.PNG)
-
-![](/images//model3.PNG)
+![](/images/predict.png)
 
 1.Procfile
 
