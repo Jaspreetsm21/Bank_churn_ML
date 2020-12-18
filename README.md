@@ -12,7 +12,7 @@
 
 **For Web Framework Requirements**: pip install -r requirements.txt
 
-**Flask and Heroku Production**: https://towardsdatascience.com/designing-a-machine-learning-model-and-deploying-it-using-flask-on-heroku-9558ce6bde7b
+**Data (Kaggle)**: https://www.kaggle.com/emregur/churndata
 
 # Data Cleaning and EDA
 
