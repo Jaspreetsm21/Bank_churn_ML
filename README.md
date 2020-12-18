@@ -43,6 +43,12 @@ Accurary score of 86.9% on Training Data.
  
 ## Setup for Deployment of the model on Heroku:
 
+![](/images//model1.PNG)
+
+![](/images//model2.PNG)
+
+![](/images//model3.PNG)
+
 1.Procfile
 
 ![](/images/profile.PNG)
