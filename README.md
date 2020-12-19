@@ -1,6 +1,6 @@
 # Data Science Customer Churn: Project Overview
 
-* Created a tool that estimates the success rate of the Kickstarter funding project to help an entrepreneur achieve a successful campaign.
+* Created a tool that predict whether the customer will closed their bank account, this will help the managers to better prepared and understand their customers.
 * Optimised Linear, DecisionTree, and Random Forest Regression using GridsearchCV to reach the best model.
 * Built a client-facing API using flask and Heroku to view that on the web.
 
@@ -37,8 +37,8 @@
 - It looks like accounts are not closed because of less money in the account, in fact its quite the opposite.
 - The mean age of churned customer is 45 compare to non churned customer is 35.
 
-# Model Building 
-First, I transformed the categorical variables into dummy variables. I also split the data into train and test sets with a test size of 20%.
+# [Model Building](https://github.com/Jaspreetsm21/Bank_churn_ML/blob/main/Model.ipynb)
+First, I transformed the categorical variables into dummy variables. I also split the data into train and test sets with a test size of 25%.
 
 I tried four different models and evaluated them using Precision, Recall and confusion matrix. I chose the confusion matrix because it is relatively easy to interpret.
 
@@ -50,7 +50,10 @@ Decision Tree and Kneighborsclassifier
 
 Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
+As you can see from images below, the dataset is imbalanced.  
+
 ![](/images//model1.PNG)
+
 
 ![](/images//model2.PNG)
 
@@ -61,8 +64,8 @@ Random Forest – Again, with the sparsity associated with the data, I thought t
 The Random Forest model far outperformed the other approaches on the test and validation sets.
 
 Random Forest :
-Accurary score of 85.7% on Testing Data. 
-Accurary score of 86.9% on Training Data. 
+Accurary score of 83.4% on Testing Data. 
+Accurary score of 85.8% on Training Data. 
 
 
  # [Production](https://bankml.herokuapp.com/) 
