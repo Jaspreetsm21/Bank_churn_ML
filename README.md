@@ -57,9 +57,11 @@ As you can see from the image below, the dataset is imbalanced.
 ![](/images//model1.PNG)
 
 Result - Imbalanced Data
+
 ![](/images//model2.PNG)
 
 Result After apply SMOTE 
+
 ![](/images//model3.PNG)
 
 # Model Performance
