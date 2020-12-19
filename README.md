@@ -16,6 +16,27 @@
 
 # Data Cleaning and EDA
 
+![](/images//balance.PNG)
+
+![](/images//corr.PNG)
+
+![](/images//Geo.PNG)
+
+![](/images//age.PNG)
+
+## Insight
+
+- 97k is the average balance in the bank.
+- 36% of the customers had zero bank balance. It would have been great to look their transaction history.
+- Males tend to have more balance in the bank compare to Female. On Avearge Males had 98k deposited in the bank compare to female had 96k.
+- 36% of the Females had zero bank balance, slightly edging males.
+- There are no correlation between Estimated salary and Amount of balance in the bank. However,there is a weak correlation between age and exited.
+- There are twice as many French accounts compare to Spain and Germany.
+- It is interesting to see mean balance for germany accounts is 119k vs (60k+ for Spain and France).
+- No Account belowing to Germany has Zero Balance in the bank.
+- It looks like accounts are not closed because of less money in the account, in fact its quite the opposite.
+- The mean age of churned customer is 45 compare to non churned customer is 35.
+
 # Model Building 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and test sets with a test size of 20%.
 
