@@ -1,6 +1,6 @@
 # Data Science Customer Churn: Project Overview
 
-* Created a tool that predict whether the customer will closed their bank account, this will help the managers to better prepared and understand their customers.
+* Created a tool that predicts whether the customer will be closing their bank account, this will help the managers to better prepared and understand their customers.
 * Optimised Linear, DecisionTree, and Random Forest Regression using GridsearchCV to reach the best model.
 * Built a client-facing API using flask and Heroku to view that on the web.
 
@@ -50,13 +50,16 @@ Decision Tree and Kneighborsclassifier
 
 Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
-As you can see from images below, the dataset is imbalanced.  
+Steps:
+
+As you can see from the image below, the dataset is imbalanced.  
 
 ![](/images//model1.PNG)
 
-
+Result - Imbalanced Data
 ![](/images//model2.PNG)
 
+Result After apply SMOTE 
 ![](/images//model3.PNG)
 
 # Model Performance
